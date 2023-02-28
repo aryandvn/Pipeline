@@ -143,23 +143,4 @@
       </plugins>
     </pluginManagement>
   </build>
-<settings>
-	<pluginGroups>
-        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
-    </pluginGroups>
-    <profiles>
-        <profile>
-            <id>sq1</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url>
-                  http://10.12.124.93:9000
-                </sonar.host.url>
-            </properties>
-        </profile>
-     </profiles>
-	</settings>
 </project>
